@@ -1,6 +1,6 @@
 # Farmer's Assistant App
 
-A Next.js application that helps farmers with various tasks, including plant disease detection using GPT-4 Vision API, weather forecasting, and AI-powered farming advice.
+A Next.js application that helps farmers with various tasks, including plant disease detection using mobileNet model + ollama, crop suggestions, and soil analysis.
 
 ## Features
 
@@ -11,7 +11,7 @@ Upload an image of a diseased plant and get:
 - Cure recommendations
 - Prevention tips
 
-The app uses OpenAI's GPT-4 Vision API to analyze plant images and provide detailed information.
+The app MobileNet model and ollama pipeline  to analyze plant images and provide detailed information.
 
 ### WhatsApp Bot Integration
 
@@ -21,17 +21,6 @@ Send plant images via WhatsApp and receive:
 - Prevention measures
 - Additional agricultural advice
 
-The WhatsApp bot uses Twilio's API and OpenAI's GPT-4 Vision to analyze plant images and provide detailed responses.
-
-### Weather Forecasting & Farming Advice
-
-Get personalized farming advice based on:
-- Current weather and 7-day forecast for your location
-- Crop type selection
-- AI-powered recommendations for:
-  - Watering schedules
-  - Pest risk alerts based on humidity and temperature
-  - Crop protection and preventative measures
 
 ### Ollama Integration
 
@@ -47,14 +36,6 @@ Features include:
 - Personalized farming advice using GPT-4
 
 ## Getting Started
-
-### Prerequisites
-
-1. Node.js 18.x or higher
-2. OpenAI API key for plant disease detection
-3. OpenWeatherMap API key 
-4. Twilio account (for WhatsApp integration)
-5. [Ollama](https://ollama.com/) installed and running for local AI features
 
 ### Setup
 
